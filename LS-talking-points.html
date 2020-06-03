@@ -57,6 +57,44 @@ p { text-align: center; font-family: Tw Cen MT; padding: 15px; }
   padding: 10px;
 }
 
+.circle-container {
+    perspective: 600px;
+}
+
+.circle-flip {
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    backface-visibility: hidden;
+}
+
+.circle-flip p {
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    width: 200px;
+    backface-visibility: hidden;
+
+}
+.circle-flip:hover{ transform: rotateY(180deg); }
+
+.circle-flip div {
+    transform: rotateY(180deg);
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    backface-visibility: hidden;
+}
+
 </style>
 </head>
 
@@ -132,6 +170,7 @@ later age for school-readiness than typically developing children.
 <button type="button" class="collapsible w3-hover-pale-blue" style="font-family: Tw Cen MT; font-size:24px; color: #eee" >More Online Resources</button>
 <div class="content">
   <p style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
+  <a href="https://www.asha.org/public/speech/development/suggestions/" target="_blank">Suggestions for Parents of School-Aged Children</a><br>
   <a href="https://www.readingrockets.org/helping" target="_blank">Reading Rockets </a><br>
   <a href="https://www.additudemag.com/" target="_blank">ADDitude: Inside the ADHD Mind </a><br>
 
@@ -215,6 +254,9 @@ Reading together helps children understand the connection between spoken and wri
  <li style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
 Reading together helps children learn about emotions.  Children's books are filled with funny stories and exciting illustrations. Pair that with fun voices for the characters, and the book becomes a stage. For example, in Dr. Seuss&apos; famous Green Eggs and Ham, Sam chases his poor friend around, offering him some food that he doesn&apos;t wish to eat. It is exasperating and exhausting! Our read aloud voices can show the frustration he experiences, and then later the more peaceful delight as he tries it and likes it after all. What a great way to build empathy!</li>
 </ol>
+  </p>
+  <p style="text-align: center; font-family: Tw Cen MT; font-size:24px">
+  <a href="https://www.readaloud.org/importance.html" target="_blank">Still not convinced&quest; Here&apos;s a graphic about how reading aloud makes a difference.</a><br>
   </p>
 </div> 
 <button type="button" class="collapsible w3-hover-pale-blue" style="font-family: Tw Cen MT; font-size:24px; color: #eee" >Making Strides with Modeling</button>
@@ -368,7 +410,23 @@ marathon of a lifetime. It takes intention to take care of ourselves so that
 we can sustain the effort and make magic within our families. It&apos;s so 
 worthwhile! What do you need to get the job done&quest;
   </p>
+
+<div id="circle-container">
+    <div class="circle-flip">
+        <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">Kathryn</p>
+        <div>
+        <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">family dinners</p>
+        </div>
+    </div>
+</div>
+
 </div> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <!-- add an expandable with this
 <button type="button" class="collapsible w3-hover-pale-blue" style="font-family: Tw Cen MT; font-size:24px; color: #eee" >Point </button>
