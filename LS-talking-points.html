@@ -57,6 +57,27 @@ p { text-align: center; font-family: Tw Cen MT; padding: 15px; }
   padding: 10px;
 }
 
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Create three equal columns that floats next to each other */
+.fivecolumn {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .circle-container {
     perspective: 600px;
 }
@@ -64,7 +85,7 @@ p { text-align: center; font-family: Tw Cen MT; padding: 15px; }
 .circle-flip {
     transform-style: preserve-3d;
     transition: transform 0.5s ease;
-    background-color: red;
+    background-color: transparent;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -77,7 +98,7 @@ p { text-align: center; font-family: Tw Cen MT; padding: 15px; }
 .circle-flip p {
     z-index: 2;
     position: absolute;
-    top: 20%;
+    top: 35%;
     transform: translateY(-50%);
     width: 200px;
     backface-visibility: hidden;
@@ -88,7 +109,7 @@ p { text-align: center; font-family: Tw Cen MT; padding: 15px; }
 .circle-flip div {
     transform: rotateY(180deg);
     border-radius: 50%;
-    background-color: red;
+    background-color: transparent;
     text-align: center;
     height: 200px;
     width: 200px;
@@ -130,6 +151,7 @@ extended period away from community exposure. Andrea engaged in professional
 development programs to strengthen her telepractice skills, adapted therapy 
 materials for online presentation, and took a refresher course in infection 
 control.<br>
+<img src="Images/TelePractice.jpg" alt="telepractice" style="display: block; margin-left: auto; margin-right: auto; width: 50%">
 <br>
 Until we have a vaccine to protect us from the rampant spread of the 
 Coronavirus, we&apos;ll all need to take precautions in order to protect 
@@ -192,7 +214,7 @@ Children don&apos;t come with instruction books. There are times,
 though, when a few guidelines wouldn&apos;t hurt. What would your instruction
 book say&quest; Here are a few words from my own. 
 <ul>
-  <img src="Images/nora_woods_path1.jpg" alt="Andrea and Nora" style="float: left; margin-right:40px; width: 530px; height: 635px ">
+  <img src="Images/nora_woods_path1.jpg" alt="woods path" style="float: left; margin-right:40px; width: 530px; height: 635px ">
   <li style="text-align: justify; font-family: Tw Cen MT; font-size:24px">Breathe in. Breathe out. Repeat. You&apos;ve got this.</li>
   <li style="text-align: justify; font-family: Tw Cen MT; font-size:24px">Not 
 every day will be your best day, but every day will be the best you can do 
@@ -236,6 +258,13 @@ themselves, but that&apos;s no time to give up on reading together. Keep up
 your streak! That shared reading time is pretty powerful. Keep it going and 
 reap the rewards:
   </p>
+  <br>
+  <br>
+<div class="row">
+ <div class="column">
+  <img src="Images/BabyGirlReading.JPG" alt="Baby reading" style="float: left; margin-right:10px; width: 100% ">
+ </div>
+ <div class="column">
 <ol>
  <li style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
 A regular routine time for reading provides structure and security for young
@@ -247,8 +276,15 @@ Live by example. When we include books in our daily routine, we show our childre
 It&apos;s fun. Reading and rereading favorites is a time for laughter and playfulness that you&apos;ll both look forward to every day.</li>
  <li style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
 Reading books helps expand children&apos;s attention span and world knowledge. Following their interests with books, they&apos;ll be able to listen eagerly to longer and more complex stories. They may even enjoy some selections from the nonfiction section in the library.</li> 
+</ol>
+ </div>
+ <div class="column">
+  <img src="Images/KreadtoN.JPG" alt="K reads to N" style="float: right; margin-left:10px; width: 100% ">
+ </div>
+</div>
+<ol start="5">
  <li style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
-Children who are read to will develop bigger vocabularies. Stronger listening vocabulary skills make for stronger reading comprehension. Children who are read to become better readers, writers, stronger students, and are more likely to go on to read on their own.</li>
+Children who are read to will develop bigger vocabularies. Stronger listening vocabulary skills make for stronger reading comprehension. Children who are read to become better readers, better writers, stronger students, and are more likely to go on to read on their own.</li>
  <li style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
 Reading together helps children understand the connection between spoken and written words. As they become ready to learn to read, children who sit with an adult reader regularly begin to see patterns, such as repeated or rhyming words and the left-to-right sweep of your hand across the text. This edges them ever closer to readiness to read their own first words.</li>
  <li style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
@@ -277,7 +313,7 @@ Suppose your child mispronounces the TH sound, and says, Mine is bigger ven
 yours. You can recast his statement to help him notice your correct
 model.<br>
 <div class="center" style="width: 40%">
-<ol style="border:2px solid black; width: 500px; height: 400px">
+<ol style="background-color: LightCyan; width: 500px; height: 400px">
  <li style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
 Start with a positive, as much as possible.<br><p style="font-style: italic; padding: 0px">Yes!</p>
  <li style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
@@ -297,7 +333,7 @@ she says, Him going out. You can recast his statement like this:
 </p>
 
 <div class="center" style="width: 40%">
-<ol style="border:2px solid black; width: 500px; height: 400px">
+<ol style="background-color: Cornsilk; width: 500px; height: 400px">
  <li style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
 Start with a positive, as much as possible.<br><p style="font-style: italic; padding: 0px">Yes! </p>
  <li style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
@@ -373,7 +409,6 @@ Ultimately, each family has its own journey. Lots of people will have opinions,
 but parents are uniquely empowered to figure out what&apos;s best for their
 families.
 </p>
-<br>
   <p style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
   <a href="https://heav.org/begin-homeschooling/how-to-start-homeschooling-in-virginia/" target="_blank">How to start homeschooling in Virginia</a><br>
   <a href="https://www.privateschoolreview.com/blog/category/why-private-school" target="_blank">An introduction to private school education</a><br>
@@ -381,16 +416,15 @@ families.
   </p>
 </div> 
 
-<button type="button" class="collapsible w3-hover-pale-blue" style="font-family: Tw Cen MT; font-size:24px; color: #eee" >Mighty Moms Need Support! </button>
+<button type="button" class="collapsible w3-hover-pale-blue" style="font-family: Tw Cen MT; font-size:24px; color: #eee" >Caring for the One Who Holds It All Together</button>
 <div class="content">
-<h2 style="font-weight: bold"> Caring for the one who holds it all together </h2>
   <p style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
-It&apos;s not just moms, though, is it&quest; In most families, there&apos;s 
-someone who takes on the lion&apos;s share of the caregiving. Sometimes 
-it&apos;s a mom or a dad, sometimes it&apos;s a grandparent or even a hired 
-caregiver. Always, it&apos;s a person who is putting their all into the 
-family effort, juggling more than they imagined, and tucking the children in 
-with hopes for a bright tomorrow. </p>
+Moms do alot&excl; It&apos;s not just moms, though, is it&quest; In most 
+families, there&apos;s someone who takes on the lion&apos;s share of the 
+caregiving. Sometimes it&apos;s a mom or a dad, sometimes it&apos;s a 
+grandparent or even a hired caregiver. Always, it&apos;s a person who is 
+putting their all into the family effort, juggling more than they imagined, 
+and tucking the children in with hopes for a bright tomorrow. </p>
   <p style="text-align: justify; font-family: Tw Cen MT; font-size:24px">
 It&apos;s a really hard job! When our 
 children learn differently, there&apos;s a whole extra layer of challenge. 
@@ -410,17 +444,128 @@ marathon of a lifetime. It takes intention to take care of ourselves so that
 we can sustain the effort and make magic within our families. It&apos;s so 
 worthwhile! What do you need to get the job done&quest;
   </p>
-
-<div id="circle-container">
-    <div class="circle-flip">
-        <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">Kathryn</p>
-        <div>
-        <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">family dinners</p>
-        </div>
+<div class="row">
+ <div class="fivecolumn">
+  <div id="circle-container">
+   <div class="circle-flip" style="background-color: Thistle">
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">Cecelia</p>
+    <div>
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">going on a walk (while the little one rides her bike)</p>
     </div>
+   </div>
+  </div>
+ </div> 
+ <div class="fivecolumn">
+  <div id="circle-container">
+   <div class="circle-flip" style="background-color: Silver">
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">Kathryn</p>
+    <div>
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">family dinners</p>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="fivecolumn">
+  <div id="circle-container">
+   <div class="circle-flip" style="background-color: MediumTurquoise">
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:32px; padding: 0 10px">YOU</p>
+    <div>
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">What helps you get the job done&quest;</p>
+    </div>
+   </div>
+  </div>
+ </div> 
+ <div class="fivecolumn">
+  <div id="circle-container">
+   <div class="circle-flip" style="background-color: MistyRose">
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">Jackie</p>
+    <div>
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">ME-time &amp; Starbucks dinners</p>
+    </div>
+   </div>
+  </div>
+ </div> 
+ <div class="fivecolumn">
+  <div id="circle-container">
+   <div class="circle-flip" style="background-color: Silver">
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">Julie</p>
+    <div>
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">yoga &amp; gratitude</p>
+    </div>
+   </div>
+  </div>
+ </div> 
 </div>
-
-</div> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+ <div class="fivecolumn">
+  <div id="circle-container">
+   <div class="circle-flip" style="background-color: Thistle">
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">Jay</p>
+    <div>
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">coffee &amp; a little quiet time</p>
+    </div>
+   </div>
+  </div>
+ </div> 
+ <div class="fivecolumn">
+  <div id="circle-container">
+   <div class="circle-flip" style="background-color: MistyRose">
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">Arzu</p>
+    <div>
+    <p style="top: 45%; text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">my precious family &amp; my beloved friends</p>
+    </div>
+   </div>
+  </div>
+ </div> 
+ <div class="fivecolumn">
+  <div id="circle-container">
+   <div class="circle-flip" style="background-color: Thistle">
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">Alyson</p>
+    <div>
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">nature &amp; dancing</p>
+    </div>
+   </div>
+  </div>
+ </div> 
+ <div class="fivecolumn">
+  <div id="circle-container">
+   <div class="circle-flip" style="background-color: Silver">
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">Robin</p>
+    <div>
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">walking, evening snuggles, family traditions, writing</p>
+    </div>
+   </div>
+  </div>
+ </div> 
+ <div class="fivecolumn">
+  <div id="circle-container">
+   <div class="circle-flip" style="background-color: MistyRose">
+    <p style="text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">Sara</p>
+    <div>
+    <p style="top: 45%; text-align: center; font-family: Tw Cen MT; font-size:24px; padding: 0 10px">meditation, taking care of pets, good firm hugs</p>
+    </div>
+   </div>
+  </div>
+ </div> 
+</div>
+<br>
+<br>
 <br>
 <br>
 <br>
